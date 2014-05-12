@@ -29,6 +29,7 @@ def main():
         (host, port),
         CounterRequestHandler
     )
+
     server.serve_forever()
 
 

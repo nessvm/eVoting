@@ -1,12 +1,12 @@
 __author__ = 'nessvm'
 import struct
+
 from Crypto.Cipher import PKCS1_v1_5
 from Crypto import Random
 
 
 class SystemFrame:
     def __init__(self, frame):
-        frame = bytearray(frame)
         # System frame types will always be the first byte on each frame
         self.type = frame[0]
         # Ciphertext size for the decipher, packed in 4 bytes.
@@ -17,7 +17,6 @@ class SystemFrame:
         self.id = frame[8:73]
         # Finally the frame data will be on the rest of the system frame
         self.data = frame[73: 73 + self.ct_size]
-        print(self.data)
 
     def blind_sign(self, key):
         """ Perform a blind signature on a vote, received from a  caster
@@ -41,10 +40,19 @@ class SystemFrame:
     def to_bytes(self):
         return bytes(bytearray([self.type]) + self.us + self.id + self.data)
 
+    def to_string(self):
+        string = 'Type: {}'.format(self.type)
+        string += ' Size: {}'.format(self.ct_size)
+        string += ' Unused: {}'.format(self.us)
+        string += ' ID: {}'.format(self.id)
+        string += ' Data: {}'.format(self.data)
+
+        return string
+
     def decrypt_data(self, key):
         decipher = PKCS1_v1_5.new(key)
         sentinel = Random.new().read(72)
-        return decipher.decrypt(self.data[:self.ct_size], sentinel)
+        return decipher.decrypt(bytes(self.data), sentinel)
 
 
 CASTER_RANDOM = 1  # Caster random number
