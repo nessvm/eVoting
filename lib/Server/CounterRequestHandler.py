@@ -1,10 +1,14 @@
 __author__ = 'nessvm'
 
 from SocketServer import StreamRequestHandler
+import time
 
 from Crypto.PublicKey import RSA
 from Crypto.Cipher import PKCS1_v1_5
 from Crypto.Cipher import AES
+from Crypto.Random import random
+
+from lib.Database.DBVote import DBVote
 
 
 class CounterRequestHandler(StreamRequestHandler):
@@ -16,38 +20,55 @@ class CounterRequestHandler(StreamRequestHandler):
     by the Validator and count it.
     """
 
-
     def handle(self):
         data = self.rfile.read()
 
+        # Importing the RSA key and creating the PKCS object
         f = open('../ctr.prv', 'r')
         key = RSA.importKey(f.read())
         decipher = PKCS1_v1_5.new(key)
+        f.close()
+
+        # Creating a connection to the database
+        db = DBVote()
 
         if data[0] == '1':
-            aes_key = decipher.decrypt(data[81:], None)
-            IV = data[65:81]
+            row = dict()  # The row to be inserted
+            row['id'] = db.escape_bytea(data[1:65])
+            row['aes_key'] = db.escape_bytea(decipher.decrypt(data[81:], None))
+            row['iv'] = db.escape_bytea(data[65:81])
+            db.insert('public."Vote"', row)
             print 'Type: Voter AES key'
-            print 'Data: {}'.format(str())
-
-            AES.new(aes_key, AES.MODE_CBC, IV)
-            #TODO Implement a database for data storage
-            self.finish()
+            print 'Data: {}'.format(row['aes_key'])
+            #TODO Implement the vote counting algorithm
 
         elif data[0] == '3':
+            # RSA Decryption
+            ciphertext = decipher.decrypt(data[65:], None)
+            # Fetching AES parameters
+            ID = db.escape_bytea(data[1:65])
+            res = db.query('SELECT "Vote"."aes_key", "Vote"."iv" FROM public."Vote" WHERE ' +
+                           '"Vote"."id"=\'{}\';'.format(ID))
+            key = db.unescape_bytea(res.dictresult()[0]['aes_key'])
+            iv = db.unescape_bytea(res.dictresult()[0]['iv'])
+            # AES Decryption
+            decipher = AES.new(key, AES.MODE_CBC, iv)
+            candidate = decipher.decrypt(ciphertext).rstrip()
+            # Database update
+            # A random integer is generated to ensure vote confidentiality from frequent
+            # database queries, set to a random delay between 15 seconds and 2 minutes
+            delay = random.randint(15, 120)
+            time.sleep(delay)
+
+            row = dict()
+            row['id'] = ID
+            row['candidate'] = candidate
+            db.update('public."Vote"', row)
             print 'Type: Validator signature'
-            print 'Data: {}'.format(str(decipher.decrypt(data[65:], None)))
-            self.finish()
+            print 'Data: {}'.format(candidate)
 
         else:
             print 'Invalid frame received'
-            self.finish()
 
-            # if frame.type != 1 and frame.type != 3:
-            #     print('Received an invalid frame')
-            # elif frame.type == 1:
-            #     print 'Received caster random number'
-            #     print 'Random: %d' % frame.decrypt_data(key)
-            # elif frame.type == 3:
-            #     print 'Received validator blind signed vote'
-            #     print 'Vote: %s' % frame.decrypt_data(key)
+        db.close()
+        self.finish()
