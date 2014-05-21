@@ -10,8 +10,6 @@ from Crypto.PublicKey import RSA
 from lib.Server.Connection import DEFAULT
 
 
-
-#TODO Create a table in the database for storing the RSA public keys
 class ValidatorRequestHandler(StreamRequestHandler):
     def handle(self):
         data = self.rfile.read()
