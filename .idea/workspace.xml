@@ -2,7 +2,498 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40f6b8e3-010f-412c-b9d8-5cb48da5c254" name="Default" comment="First functional implementation of the eVoting system">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Server/ValidatorRequestHandler.py" afterPath="$PROJECT_DIR$/lib/Server/ValidatorRequestHandler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/_AES.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/_AES.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/_AES.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/_ARC2.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/_ARC2.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/_ARC2.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/_ARC4.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/_ARC4.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/_ARC4.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/_Blowfish.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/_Blowfish.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/_Blowfish.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/_CAST.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/_CAST.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/_CAST.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/_DES.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/_DES.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/_DES.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/_DES3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/_DES3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/_DES3.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/_MD2.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/_MD2.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/_MD2.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/_MD4.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/_MD4.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/_MD4.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/_RIPEMD160.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/_RIPEMD160.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/_RIPEMD160.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/_SHA224.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/_SHA224.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/_SHA224.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/_SHA256.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/_SHA256.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/_SHA256.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/_SHA384.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/_SHA384.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/_SHA384.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/_SHA512.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/_SHA512.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/_SHA512.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/_XOR.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/_XOR.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/_XOR.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Util/_counter.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Util/_counter.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Util/_counter.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Util/strxor.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Util/strxor.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Util/strxor.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/AES.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/AES.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/AES.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/ARC2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/ARC2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/ARC2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/ARC4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/ARC4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/ARC4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Protocol/AllOrNothing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Protocol/AllOrNothing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Protocol/AllOrNothing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/Blowfish.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/Blowfish.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/Blowfish.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/CAST.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/CAST.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/CAST.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Protocol/Chaffing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Protocol/Chaffing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Protocol/Chaffing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Server/Connection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Server/Connection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Server/Connection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/.idea/Counter.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Util/Counter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/src/Counter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Util/Counter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Util/Counter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Server/CounterRequestHandler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Database/DBVote.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/DES.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/DES.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/DES.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/DES3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/DES3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/DES3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/PublicKey/DSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/PublicKey/DSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/PublicKey/DSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/PublicKey/ElGamal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/PublicKey/ElGamal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/PublicKey/ElGamal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Random/Fortuna/FortunaAccumulator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Random/Fortuna/FortunaAccumulator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Random/Fortuna/FortunaAccumulator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Random/Fortuna/FortunaGenerator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Random/Fortuna/FortunaGenerator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Random/Fortuna/FortunaGenerator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/HMAC.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/HMAC.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/HMAC.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Protocol/KDF.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Protocol/KDF.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Protocol/KDF.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/MD2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/MD2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/MD2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/MD4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/MD4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/MD4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/MD5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/MD5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/MD5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/PKCS1_OAEP.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/PKCS1_OAEP.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/PKCS1_OAEP.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Signature/PKCS1_PSS.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Signature/PKCS1_PSS.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Signature/PKCS1_PSS.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/PKCS1_v1_5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Signature/PKCS1_v1_5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/PKCS1_v1_5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Signature/PKCS1_v1_5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/PKCS1_v1_5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Signature/PKCS1_v1_5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Util/RFC1751.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Util/RFC1751.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Util/RFC1751.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/RIPEMD.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/RIPEMD.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/RIPEMD.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/PublicKey/RSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/PublicKey/RSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/PublicKey/RSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/SHA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/SHA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/SHA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/SHA224.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/SHA224.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/SHA224.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/SHA256.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/SHA256.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/SHA256.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/SHA384.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/SHA384.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/SHA384.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/SHA512.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/SHA512.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/SHA512.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Random/Fortuna/SHAd256.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Random/Fortuna/SHAd256.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Random/Fortuna/SHAd256.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Server/Security.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Server/Security.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Server/Security.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Server/ThreadingTCPServer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Server/ThreadingTCPServer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/.idea/Validator.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/src/Validator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Server/ValidatorRequestHandler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/.idea/Voter.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/src/Voter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/XOR.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/XOR.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/XOR.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/PublicKey/_DSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/PublicKey/_DSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/PublicKey/_DSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/PublicKey/_RSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/PublicKey/_RSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/PublicKey/_RSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Random/_UserFriendlyRNG.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Random/_UserFriendlyRNG.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Random/_UserFriendlyRNG.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Protocol/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/PublicKey/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Random/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Random/Fortuna/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Random/OSRNG/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Cipher/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Hash/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Protocol/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/PublicKey/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/Fortuna/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/OSRNG/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Signature/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Util/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Signature/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Util/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Database/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Server/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Protocol/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/PublicKey/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Random/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Random/Fortuna/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Random/OSRNG/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Cipher/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Hash/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Protocol/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/PublicKey/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/Fortuna/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/OSRNG/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Signature/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Util/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Signature/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Util/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Server/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Protocol/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/PublicKey/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Random/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Random/Fortuna/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Random/OSRNG/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Cipher/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Hash/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Protocol/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/PublicKey/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/Fortuna/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/OSRNG/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Signature/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Util/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Signature/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Util/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Server/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Util/_number_new.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Util/_number_new.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Util/_number_new.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/PublicKey/_slowmath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/PublicKey/_slowmath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/PublicKey/_slowmath.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Util/asn1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Util/asn1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Util/asn1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Cipher/blockalgo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Cipher/blockalgo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Cipher/blockalgo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Cipher/common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Hash/common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Cipher/common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Hash/common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Cipher/common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Hash/common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/counter.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/key/ctr.prv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/key/ctr.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/key/ctr.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/key/ctr.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/ctr" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Random/OSRNG/fallback.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Random/OSRNG/fallback.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Random/OSRNG/fallback.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Hash/hashalgo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Hash/hashalgo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Hash/hashalgo.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Random/OSRNG/nt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Random/OSRNG/nt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Random/OSRNG/nt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Util/number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Util/number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Util/number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/pct_warnings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/pct_warnings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/pct_warnings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Random/OSRNG/posix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Random/OSRNG/posix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Random/OSRNG/posix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/PublicKey/pubkey.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/PublicKey/pubkey.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/PublicKey/pubkey.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Util/py21compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Util/py21compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Util/py21compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Util/py3compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Util/py3compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Util/py3compat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Random/random.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Random/random.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Random/random.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Util/randpool.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Util/randpool.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Util/randpool.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Random/OSRNG/rng_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Random/OSRNG/rng_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Random/OSRNG/rng_base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/st_common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/st_common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/st_common.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Cipher/test_AES.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Cipher/test_AES.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Cipher/test_AES.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Cipher/test_ARC2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Cipher/test_ARC2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Cipher/test_ARC2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Cipher/test_ARC4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Cipher/test_ARC4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Cipher/test_ARC4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Protocol/test_AllOrNothing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Protocol/test_AllOrNothing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Protocol/test_AllOrNothing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Cipher/test_Blowfish.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Cipher/test_Blowfish.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Cipher/test_Blowfish.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Cipher/test_CAST.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Cipher/test_CAST.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Cipher/test_CAST.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Util/test_Counter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Util/test_Counter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Util/test_Counter.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Cipher/test_DES.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Cipher/test_DES.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Cipher/test_DES.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Cipher/test_DES3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Cipher/test_DES3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Cipher/test_DES3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/PublicKey/test_DSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/PublicKey/test_DSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/PublicKey/test_DSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/PublicKey/test_ElGamal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/PublicKey/test_ElGamal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/PublicKey/test_ElGamal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/Fortuna/test_FortunaAccumulator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/Fortuna/test_FortunaAccumulator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/Fortuna/test_FortunaAccumulator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/Fortuna/test_FortunaGenerator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/Fortuna/test_FortunaGenerator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/Fortuna/test_FortunaGenerator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Hash/test_HMAC.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Hash/test_HMAC.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Hash/test_HMAC.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Protocol/test_KDF.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Protocol/test_KDF.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Protocol/test_KDF.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Hash/test_MD2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Hash/test_MD2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Hash/test_MD2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Hash/test_MD4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Hash/test_MD4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Hash/test_MD4.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Hash/test_MD5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Hash/test_MD5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Hash/test_MD5.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Hash/test_RIPEMD.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Hash/test_RIPEMD.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Hash/test_RIPEMD.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/PublicKey/test_RSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/PublicKey/test_RSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/PublicKey/test_RSA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Hash/test_SHA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Hash/test_SHA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Hash/test_SHA.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Hash/test_SHA224.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Hash/test_SHA224.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Hash/test_SHA224.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Hash/test_SHA256.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Hash/test_SHA256.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Hash/test_SHA256.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Hash/test_SHA384.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Hash/test_SHA384.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Hash/test_SHA384.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Hash/test_SHA512.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Hash/test_SHA512.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Hash/test_SHA512.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/Fortuna/test_SHAd256.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/Fortuna/test_SHAd256.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/Fortuna/test_SHAd256.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Cipher/test_XOR.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Cipher/test_XOR.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Cipher/test_XOR.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/test__UserFriendlyRNG.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/test__UserFriendlyRNG.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/test__UserFriendlyRNG.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Util/test_asn1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Util/test_asn1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Util/test_asn1.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Protocol/test_chaffing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Protocol/test_chaffing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Protocol/test_chaffing.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/OSRNG/test_fallback.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/OSRNG/test_fallback.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/OSRNG/test_fallback.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/OSRNG/test_generic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/OSRNG/test_generic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/OSRNG/test_generic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/PublicKey/test_importKey.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/PublicKey/test_importKey.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/PublicKey/test_importKey.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/OSRNG/test_nt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/OSRNG/test_nt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/OSRNG/test_nt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Util/test_number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Util/test_number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Util/test_number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Cipher/test_pkcs1_15.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Signature/test_pkcs1_15.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Cipher/test_pkcs1_15.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Signature/test_pkcs1_15.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Cipher/test_pkcs1_15.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Signature/test_pkcs1_15.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Cipher/test_pkcs1_oaep.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Cipher/test_pkcs1_oaep.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Cipher/test_pkcs1_oaep.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Signature/test_pkcs1_pss.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Signature/test_pkcs1_pss.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Signature/test_pkcs1_pss.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/OSRNG/test_posix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/OSRNG/test_posix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/OSRNG/test_posix.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/test_random.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/test_random.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/test_random.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Protocol/test_rfc1751.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Protocol/test_rfc1751.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Protocol/test_rfc1751.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/test_rpoolcompat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/test_rpoolcompat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/test_rpoolcompat.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Random/OSRNG/test_winrandom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/SelfTest/Util/test_winrandom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Random/OSRNG/test_winrandom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/SelfTest/Util/test_winrandom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Random/OSRNG/test_winrandom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/SelfTest/Util/test_winrandom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/validator.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/voter.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/key/vtr.prv" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/key/vtr.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/key/vtr.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/key/vtr.pub" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/lib/Crypto/Util/winrandom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/lib/Crypto/Util/winrandom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/lib/Crypto/Util/winrandom.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Counter/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Validator/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Voter/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ctr.prv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/ctr.pub" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Algebra/Modular.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Algebra/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Database/DBVote.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Database/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Global.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Server/Connection.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Server/CounterRequestHandler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Server/Security.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Server/SystemFrame.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Server/ThreadingTCPServer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Server/ValidatorRequestHandler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/Server/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Counter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Validator.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Voter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vtr.prv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vtr.pub" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="eVoting.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,17 +515,7 @@
     <favorites_list name="eVoting" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Voter.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Voter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="41" selection-start="162" selection-end="162" vertical-scroll-proportion="0.18463811" vertical-offset="1" max-vertical-offset="1224">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -66,16 +547,20 @@
         <option value="$PROJECT_DIR$/lib/Server/Security.py" />
         <option value="$PROJECT_DIR$/lib/Database/DB_Vote.py" />
         <option value="$PROJECT_DIR$/lib/Database/DBVote.py" />
-        <option value="$PROJECT_DIR$/src/Voter.py" />
         <option value="$PROJECT_DIR$/lib/Server/CounterRequestHandler.py" />
         <option value="$PROJECT_DIR$/lib/Server/ValidatorRequestHandler.py" />
+        <option value="$PROJECT_DIR$/src/Voter.py" />
+        <option value="$PROJECT_DIR$/Voter/src/Voter.py" />
+        <option value="$PROJECT_DIR$/Validator/lib/Server/ValidatorRequestHandler.py" />
+        <option value="$PROJECT_DIR$/Validator/src/Validator.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="27" />
-    <option name="width" value="1600" />
-    <option name="height" value="846" />
+    <option name="x" value="-1" />
+    <option name="y" value="26" />
+    <option name="width" value="1602" />
+    <option name="height" value="849" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -122,52 +607,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eVoting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eVoting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eVoting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eVoting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eVoting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eVoting" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -182,6 +621,7 @@
     <property name="FullScreen" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="LayoutCode.rearrangeEntriesPython" value="false" />
+    <property name="SearchEverywhereHistory" value="" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -193,7 +633,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Voter">
+  <component name="RunManager" selected="Python.Voter (1)">
     <configuration default="false" name="Counter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,7 +665,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="eVoting" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Voter.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="PARAMETERS" value="127.0.0.1 127.0.0.1" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -261,6 +701,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="eVoting" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/Server/CounterRequestHandler.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Voter (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <output_file path="$USER_HOME$/pycharm.log" is_save="true" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Voter/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="eVoting" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Voter/src/Voter.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -388,18 +847,20 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Counter" />
       <item index="1" class="java.lang.String" itemvalue="Python.Voter" />
       <item index="2" class="java.lang.String" itemvalue="Python.Validator" />
       <item index="3" class="java.lang.String" itemvalue="Python.CounterRequestHandler" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Voter (1)" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.Voter" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Counter" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.Voter (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Voter" />
         <item index="2" class="java.lang.String" itemvalue="Python.Validator" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CounterRequestHandler" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Counter" />
+        <item index="4" class="java.lang.String" itemvalue="Python.CounterRequestHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -463,19 +924,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1600" height="846" extended-state="6" />
-    <editor active="true" />
+    <frame x="-1" y="26" width="1602" height="849" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32676056" sideWeight="0.49968255" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.49968255" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2495238" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18920635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18920635" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32676056" sideWeight="0.50031745" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.9084507" sideWeight="0.50031745" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32957748" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42394367" sideWeight="0.50031745" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32957748" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -510,93 +971,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/Server/SystemFrame.py">
+    <entry file="file://$PROJECT_DIR$/Validator/src/Validator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="23" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1008" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/CounterRequestHandler.py">
+    <entry file="file://$PROJECT_DIR$/Validator/lib/Server/ValidatorRequestHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="47" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="792" />
+        <state line="20" column="17" selection-start="512" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="972" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Counter.py">
+    <entry file="file://$PROJECT_DIR$/Voter/src/Voter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="738" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Voter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="810">
-          <folding />
+        <state line="3" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1260">
+          <folding>
+            <element signature="e#18#31#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/SystemFrame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="23" selection-start="655" selection-end="655" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1008" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/CounterRequestHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="47" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="792" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="787" selection-end="787" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="738" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Voter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="15" selection-start="513" selection-end="513" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/ThreadingTCPServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/Connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/SystemFrame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="46" selection-start="1221" selection-end="1221" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="972" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/CounterRequestHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="54" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0" vertical-offset="304" max-vertical-offset="792" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/ValidatorRequestHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="47" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" vertical-offset="89" max-vertical-offset="504" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Validator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="21" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="954" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/ThreadingTCPServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/Connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -604,84 +995,14 @@
         <state line="10" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="432" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/SystemFrame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="31" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="684" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/CounterRequestHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.0" vertical-offset="511" max-vertical-offset="954" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/ThreadingTCPServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="49" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/Connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="432" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="27" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="414" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/CounterRequestHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="23" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="54" selection-start="1107" selection-end="1107" vertical-scroll-proportion="0.0" vertical-offset="344" max-vertical-offset="972" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/Connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/CounterRequestHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="288" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Py-08-RSA/server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="31" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="288" max-vertical-offset="1224" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="1026" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/Connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="324" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/ThreadingTCPServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="8" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/CounterRequestHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Algebra/Modular.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Py-08-RSA/server.py">
@@ -690,16 +1011,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="531" selection-end="531" vertical-scroll-proportion="0.75174016" vertical-offset="0" max-vertical-offset="432" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/ThreadingTCPServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252" />
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/Crypto/Cipher/PKCS1_v1_5.py">
@@ -712,31 +1028,6 @@
         <state line="648" column="0" selection-start="21162" selection-end="21162" vertical-scroll-proportion="0.33182845" vertical-offset="11445" max-vertical-offset="13104" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Global.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Validator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="350" selection-end="350" vertical-scroll-proportion="0.39325842" vertical-offset="95" max-vertical-offset="540" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Counter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="823" selection-end="823" vertical-scroll-proportion="0.5168539" vertical-offset="310" max-vertical-offset="756" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/SystemFrame.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="172" selection-end="172" vertical-scroll-proportion="-1.2651685" vertical-offset="671" max-vertical-offset="1116" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/Connection.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="110" selection-end="110" vertical-scroll-proportion="0.20224719" vertical-offset="0" max-vertical-offset="445" />
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/python2.7/dist-packages/PyGreSQL-4.1.1-py2.7-linux-x86_64.egg/pg.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="769" column="41" selection-start="27291" selection-end="27291" vertical-scroll-proportion="0.6143498" vertical-offset="13514" max-vertical-offset="17550" />
@@ -747,37 +1038,33 @@
         <state line="223" column="0" selection-start="7712" selection-end="7712" vertical-scroll-proportion="0.33183858" vertical-offset="3812" max-vertical-offset="10368" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/CounterRequestHandler.py">
+    <entry file="file://$PROJECT_DIR$/Counter/lib/Server/CounterRequestHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="11" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="1422" />
+        <state line="7" column="29" selection-start="181" selection-end="181" vertical-scroll-proportion="0.18463811" vertical-offset="1" max-vertical-offset="1422" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/ValidatorRequestHandler.py">
+    <entry file="file://$PROJECT_DIR$/Voter/src/Voter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="21" selection-start="285" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="846">
-          <folding />
+        <state line="15" column="11" selection-start="256" selection-end="256" vertical-scroll-proportion="0.3988183" vertical-offset="0" max-vertical-offset="1260">
+          <folding>
+            <element signature="e#18#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Database/DBVote.py">
+    <entry file="file://$PROJECT_DIR$/Counter/src/Counter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-          <folding />
-        </state>
+        <state line="22" column="0" selection-start="644" selection-end="644" vertical-scroll-proportion="0.5849335" vertical-offset="0" max-vertical-offset="756" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Server/Security.py">
+    <entry file="file://$PROJECT_DIR$/Validator/lib/Server/ValidatorRequestHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="40" selection-start="63" selection-end="63" vertical-scroll-proportion="0.053175777" vertical-offset="0" max-vertical-offset="677">
-          <folding />
-        </state>
+        <state line="7" column="26" selection-start="123" selection-end="123" vertical-scroll-proportion="0.18611522" vertical-offset="0" max-vertical-offset="990" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Voter.py">
+    <entry file="file://$PROJECT_DIR$/Validator/src/Validator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="41" selection-start="162" selection-end="162" vertical-scroll-proportion="0.18463811" vertical-offset="1" max-vertical-offset="1224">
-          <folding />
-        </state>
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="677" />
       </provider>
     </entry>
   </component>
